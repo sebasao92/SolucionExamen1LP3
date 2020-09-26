@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+import model.Docente;
+import model.Estudiante;
+import model.Participante;
+
 public class SolicitadorDeDatos {
 
     private final Scanner scanner = new Scanner(System.in);
@@ -17,7 +21,7 @@ public class SolicitadorDeDatos {
 
         System.out.println("\nInformación Estudiante:");
         Participante participante = solicitarInformacionParticipante();
-        String grupo = "";
+        String grupo;
         do {
             System.out.println("Ingrese el grupo:");
             grupo = scanner.nextLine();

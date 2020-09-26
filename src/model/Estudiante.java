@@ -1,3 +1,5 @@
+package model;
+
 public class Estudiante extends Participante {
 
     private final String grupo;

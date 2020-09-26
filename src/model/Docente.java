@@ -1,3 +1,5 @@
+package model;
+
 public class Docente extends Participante {
 
     private final String asignatura;
