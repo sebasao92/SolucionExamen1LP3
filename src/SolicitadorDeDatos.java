@@ -19,7 +19,7 @@ public class SolicitadorDeDatos {
 
     public Estudiante solicitarInformacionEstudiante(){
 
-        System.out.println("\nInformación Estudiante:");
+        System.out.println("\n\nInformación Estudiante:");
         Participante participante = solicitarInformacionParticipante();
         String grupo;
         do {
@@ -32,7 +32,7 @@ public class SolicitadorDeDatos {
 
     public Docente solicitarInformacionDocente(){
 
-        System.out.println("\nInformación Docente:");
+        System.out.println("\n\nInformación Docente:");
         Participante participante = solicitarInformacionParticipante();
         System.out.println("Ingrese la asignatura");
         String asignatura = scanner.nextLine();
